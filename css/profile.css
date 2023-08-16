@@ -1,0 +1,48 @@
+.profile {
+    background: var(--background-color2);    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.profile__container{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    padding: 1rem;
+}
+
+.profile__title{
+    font-size: 4rem;
+    font-style: italic;    
+    margin: 1rem;
+}   
+
+.profile__details{
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.profile__network_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.profile__network__item{
+    margin-right: 1rem;
+}
+
+.profile__network__icon{
+    margin-left: 0.5rem
+}
+
+.profile__avatar{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    padding: 1rem;
+    border-radius: 50%;
+    width: 35vh;
+}

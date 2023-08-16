@@ -1,0 +1,22 @@
+.about{
+    background: var(--background-color4);    
+    display: flex;
+    flex-wrap: wrap;
+}
+.about__container{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    padding: 3rem;    
+}
+
+.about__text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%  
+}
+
+.about__img{
+    margin: 1rem;
+    width: 40vh;
+}

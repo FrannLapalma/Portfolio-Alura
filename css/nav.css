@@ -1,0 +1,29 @@
+.portfolio__nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.portfolio__nav__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.portfolio__nav__list li{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;    
+}
+
+.portfolio__nav__list_item {
+    height: 1px;
+    font-size: 1rem;
+    justify-content: space-around;
+}
+
+.portfolio__nav__item__contact {
+    font-weight: bold;
+    margin-left: 3rem;
+    padding: 1rem;
+}

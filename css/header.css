@@ -1,0 +1,20 @@
+.portfolio__header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 1em;
+    background: var(--background-color1);
+}
+
+.portfolio__header__logo{
+    height: 2rem;
+    margin-left: 2rem;
+}
+.portfolio__header__title{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 1rem;
+    margin: 1rem;
+}
