@@ -1,0 +1,40 @@
+.academic{
+    background-color: var(--background-color4);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.academic__container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    padding: 1rem;    
+}
+
+.academic__courses{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.academic__courses ul{
+    padding:0px;
+}
+
+.academic__courses__box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    background-color: #FFFFFF;
+    margin: 1em;
+    padding: 1em;
+}
+
+.academic__courses__item__img img{
+    width: 100%;
+}

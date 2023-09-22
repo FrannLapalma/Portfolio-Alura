@@ -1,5 +1,5 @@
 .about{
-    background: var(--background-color4);    
+    background-color: var(--background-color4);    
     display: flex;
     flex-wrap: wrap;
 }
