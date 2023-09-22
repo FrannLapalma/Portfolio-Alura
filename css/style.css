@@ -4,7 +4,6 @@
     --background-color3: #B9D7EA;
     --background-color4: #769FCD;
     --color-link: #000;
-    --color-profile: #;
 }
 
 body {
@@ -28,4 +27,13 @@ a{
     font-size: 40px;
     margin: 0px;
     padding: 1rem;
+}
+
+.footer{
+    display: flex;
+    width: 1440px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
