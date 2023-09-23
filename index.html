@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/hobbies.css">
         <link rel="stylesheet" href="css/academic.css">
         <link rel="stylesheet" href="css/experience.css">
+        <link rel="stylesheet" href="css/contact.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Oswald:wght@200;400&display=swap" rel="stylesheet">
@@ -168,7 +169,7 @@
                     <div class="experience__container">
                         <h3 class="section__title">Experiencia Profesional</h3>
                         <div class="experiencie__box">                            
-                            <img class="experience__img" src="assets/img/encriptador.png">
+                            <img class="experience__img" src="assets/img/encriptador.png" alt="Captura experiencia">
                             <div class="experience__info">
                                 <h4 class="experience__title"> Encriptador de texto</h4>
                                 <p class="experience__text">Challenge Alura Codificador</p>
@@ -185,6 +186,24 @@
                                         </span>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Sección de Contact -->
+                <section class="contact">
+                    <div class="contact__container">
+                        <img class="contact__img" src="assets/img/contact_image.png" alt="Contacto">
+                        <div class="contact__text">
+                            <h2 class="contact__title">Contacto</h2>
+                            <p class="contact__subtext">¿Querés hablar conmigo?</p>
+                            <p class="contact__subtext">Completa el siguiente formulario y me pondré en contacto lo antes posible.</p>
+                            <form class="contact__form" name="form">
+                                <input class="formcontact__input" type="text" name="nombre" placeholder="Nombre">
+                                <input class="formcontact__input" type="email" name="email" placeholder="E-mail">
+                                <input class="formcontact__input" type="text" name="asunto" placeholder="Asunto">
+                                <textarea class="formcontact__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                                <button type="submit" class="formcontact__btn">Enviar mensaje</button>
+                            </form>
                         </div>
                     </div>
                 </section>

@@ -2,6 +2,8 @@
     background: var(--background-color2);    
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
 
 .experience__container{
