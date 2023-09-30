@@ -31,9 +31,9 @@ a{
 
 .footer{
     display: flex;
-    width: 1440px;
+/*     width: 1440px; */
     padding: 10px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    /* gap: 10px; */
 }
